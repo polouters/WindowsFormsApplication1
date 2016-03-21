@@ -135,9 +135,9 @@ namespace WindowsFormsApplication1
                         {
                             // AQUI VA TODA LA LOGICA DEL PROGRAMA
                             int tamano = campo.Length;
-                            if (tamano > (int)longC[camposprocesados + 1])
+                            if (tamano > (int)longC[camposprocesados-1 ])
                             {
-                                longC[camposprocesados + 1] = tamano;
+                                longC[camposprocesados-1] = tamano;
                                    
                             }
                             //if(tamano>)
